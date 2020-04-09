@@ -1,0 +1,218 @@
+.dashboard {
+  width: 89%;
+  padding-left: .7rem;
+  margin-top: .55rem; }
+  .dashboard .da-title {
+    width: 100%;
+    margin-bottom: .26rem; }
+    .dashboard .da-title span {
+      color: #171c1f;
+      font-size: .15rem;
+      font-weight: bold; }
+    .dashboard .da-title .subhead {
+      color: #a8a8a8;
+      float: right; }
+  .dashboard .cards {
+    height: 1.75rem;
+    width: 100%;
+    display: flex; }
+    .dashboard .cards .card-red {
+      background: #fe4d55;
+      border-radius: .1rem;
+      padding: .2rem .14rem .12rem .25rem;
+      width: 2.3rem;
+      height: 1.4rem; }
+      .dashboard .cards .card-red .red-blod {
+        color: #e7333c;
+        font-weight: bold;
+        font-size: .12rem; }
+      .dashboard .cards .card-red .money {
+        font-size: .15rem;
+        font-weight: bold;
+        margin-top: .1rem;
+        margin-bottom: .4rem;
+        color: #fff; }
+      .dashboard .cards .card-red .monzo {
+        margin-top: .3rem;
+        height: .3rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between; }
+        .dashboard .cards .card-red .monzo .monzo-text {
+          font-size: .18rem;
+          color: #fff;
+          font-weight: bold; }
+    .dashboard .cards .card-blue {
+      background: #0d7f99;
+      border-radius: .1rem;
+      padding: .2rem .14rem .12rem .25rem;
+      width: 2.3rem;
+      height: 1.4rem;
+      margin-left: .15rem; }
+      .dashboard .cards .card-blue .bule-blod {
+        color: #005e72;
+        font-weight: bold;
+        font-size: .12rem; }
+      .dashboard .cards .card-blue .money {
+        font-size: .15rem;
+        font-weight: bold;
+        margin-top: .1rem;
+        margin-bottom: .4rem;
+        color: #fff; }
+      .dashboard .cards .card-blue .monzo {
+        margin-top: .3rem;
+        height: .3rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between; }
+        .dashboard .cards .card-blue .monzo .monzo-text {
+          font-size: .18rem;
+          color: #fff;
+          font-weight: bold; }
+    .dashboard .cards .addcard {
+      background: #f8f8f8;
+      border-radius: .1rem;
+      padding-top: .45rem;
+      width: 2.69rem;
+      height: 1.26rem;
+      margin-left: .15rem; }
+      .dashboard .cards .addcard .add {
+        width: .4rem;
+        height: .4rem;
+        border-radius: 50%;
+        border: 2px dashed #ebebeb;
+        background: url("../images/add.png") no-repeat center;
+        background-size: .17rem;
+        margin: 0 auto; }
+        .dashboard .cards .addcard .add a {
+          display: block;
+          width: 100%;
+          height: 100%; }
+      .dashboard .cards .addcard .add-text {
+        font-size: .14rem;
+        font-weight: bold;
+        color: #9e9e9e;
+        margin-top: .1rem;
+        text-align: center; }
+  .dashboard .line3 {
+    width: 100%;
+    display: flex;
+    margin-top: .6rem; }
+    .dashboard .line3 .function {
+      width: 2.3rem; }
+      .dashboard .line3 .function .line3-title {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: .2rem; }
+        .dashboard .line3 .function .line3-title span {
+          color: #4e505c;
+          font-size: .14rem;
+          font-weight: bold; }
+        .dashboard .line3 .function .line3-title .subhead {
+          color: #b8b8b8;
+          font-size: .1rem; }
+      .dashboard .line3 .function .function-main {
+        width: calc(100% - .1rem); }
+        .dashboard .line3 .function .function-main ul {
+          display: flex;
+          flex-wrap: wrap;
+          background: #fdfdfd;
+          padding: .05rem; }
+          .dashboard .line3 .function .function-main ul li {
+            width: 1rem;
+            height: .8rem;
+            border-radius: .2rem;
+            background: #fff;
+            padding-top: .2rem; }
+            .dashboard .line3 .function .function-main ul li .icon {
+              width: .4rem;
+              height: .4rem;
+              margin: 0 auto; }
+            .dashboard .line3 .function .function-main ul li .icon1 {
+              background: url("../images/transactions.png") no-repeat center;
+              background-size: .31rem; }
+            .dashboard .line3 .function .function-main ul li .icon2 {
+              background: url("../images/utility.png") no-repeat center;
+              background-size: .32rem .36rem; }
+            .dashboard .line3 .function .function-main ul li .icon3 {
+              background: url("../images/loans.png") no-repeat center;
+              background-size: .28rem .36rem; }
+            .dashboard .line3 .function .function-main ul li .icon4 {
+              background: url("../images/deposits.png") no-repeat center;
+              background-size: .3rem; }
+            .dashboard .line3 .function .function-main ul li .icon5 {
+              background: url("../images/fast.png") no-repeat center;
+              background-size: .34rem; }
+            .dashboard .line3 .function .function-main ul li .icon6 {
+              background: url("../images/exchange.png") no-repeat center;
+              background-size: .37rem .28rem; }
+            .dashboard .line3 .function .function-main ul li .icon-name {
+              font-size: .12rem;
+              color: #30373d;
+              font-weight: bold;
+              text-align: center;
+              margin-top: .18rem; }
+          .dashboard .line3 .function .function-main ul li:nth-of-type(even) {
+            margin-left: .1rem; }
+    .dashboard .line3 .data {
+      width: calc(100% - 3.05rem);
+      padding: 0 .25rem 0 .5rem; }
+      .dashboard .line3 .data .data-title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: .2rem; }
+        .dashboard .line3 .data .data-title span {
+          color: #4e505c;
+          font-size: .14rem;
+          font-weight: bold; }
+        .dashboard .line3 .data .data-title .subhead {
+          color: #b8b8b8;
+          font-size: .1rem; }
+      .dashboard .line3 .data .current {
+        margin-bottom: .4rem; }
+        .dashboard .line3 .data .current li {
+          display: flex;
+          justify-content: space-between; }
+          .dashboard .line3 .data .current li span {
+            color: #aaaaaa;
+            font-size: .12rem; }
+          .dashboard .line3 .data .current li .dashed {
+            width: .3rem;
+            border-bottom: 1px dashed #eeeeee; }
+          .dashboard .line3 .data .current li .money {
+            color: #313842;
+            font-weight: bold; }
+        .dashboard .line3 .data .current li + li {
+          margin-top: .2rem; }
+      .dashboard .line3 .data .savings {
+        display: flex;
+        justify-content: space-between;
+        margin-top: .3rem; }
+        .dashboard .line3 .data .savings .savings-chart {
+          height: 1.6rem;
+          width: 3.3rem;
+          background: url("../images/chart1.png") no-repeat center;
+          background-size: 100%; }
+        .dashboard .line3 .data .savings .chart-data {
+          width: 1.55rem;
+          margin-left: .5rem; }
+          .dashboard .line3 .data .savings .chart-data ul li {
+            display: flex;
+            justify-content: space-between; }
+            .dashboard .line3 .data .savings .chart-data ul li span {
+              font-size: .12rem;
+              font-weight: bold;
+              color: #dddddd; }
+            .dashboard .line3 .data .savings .chart-data ul li .money {
+              color: #30333a; }
+          .dashboard .line3 .data .savings .chart-data ul li + li {
+            margin-top: .2rem; }
+
+@media screen and (min-width: 1440px) {
+  .dashboard .cards .card-blue {
+    margin-left: .25rem; }
+  .dashboard .cards .addcard {
+    margin-left: .25rem; } }
+
+/*# sourceMappingURL=dashboard.css.map */

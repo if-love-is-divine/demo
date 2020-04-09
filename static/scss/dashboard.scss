@@ -1,0 +1,293 @@
+.dashboard{
+	width: 89%;
+	padding-left: .7rem;
+	margin-top: .55rem;
+	.da-title{
+		width: 100%;
+		margin-bottom: .26rem;
+		span{
+			color: #171c1f;
+			font-size: .15rem;
+			font-weight: bold;
+		}
+		.subhead{
+			color: #a8a8a8;
+			float: right;
+		}
+	}
+	.cards{
+		height: 1.75rem;
+		width: 100%;
+		display: flex;
+
+		.card-red{
+			background:#fe4d55;
+			border-radius: .1rem;
+			padding: .2rem .14rem .12rem .25rem;
+			width: 2.3rem;
+			height: 1.4rem;
+
+			.red-blod{
+				color: #e7333c;
+				font-weight: bold;
+				font-size: .12rem;
+			}
+			.money{
+				font-size: .15rem;
+				font-weight: bold;
+				margin-top: .1rem;
+				margin-bottom: .4rem;
+				color: #fff;
+			}
+			.monzo{
+				margin-top: .3rem;
+				height: .3rem;
+				width: 100%;
+				display: flex;
+				justify-content:space-between;
+				.monzo-text{
+					font-size: .18rem;
+					color: #fff;
+					font-weight: bold;
+				}
+				.monzo-input{
+
+				}
+			}
+		}
+		.card-blue{
+			background:#0d7f99;
+			border-radius: .1rem;
+			padding: .2rem .14rem .12rem .25rem;
+			width: 2.3rem;
+			height: 1.4rem;
+			margin-left: .15rem;
+			.bule-blod{
+				color: #005e72;
+				font-weight: bold;
+				font-size: .12rem;
+			}
+			.money{
+				font-size: .15rem;
+				font-weight: bold;
+				margin-top: .1rem;
+				margin-bottom: .4rem;
+				color: #fff;
+			}
+			.monzo{
+				margin-top: .3rem;
+				height: .3rem;
+				width: 100%;
+				display: flex;
+				justify-content:space-between;
+				.monzo-text{
+					font-size: .18rem;
+					color: #fff;
+					font-weight: bold;
+				}
+				.monzo-input{
+
+				}
+			}
+		}
+		.addcard{
+			background:#f8f8f8;
+			border-radius: .1rem;
+			padding-top: .45rem;
+			width: 2.69rem;
+			height: 1.26rem;
+			margin-left: .15rem;
+			.add{
+				width: .4rem;
+				height: .4rem;
+				border-radius: 50%;
+				border: 2px dashed #ebebeb;
+				background: url('../images/add.png') no-repeat center;
+				background-size: .17rem;
+				margin: 0 auto;
+				a{
+					display: block;
+					width: 100%;
+					height: 100%;
+				}
+			}
+			.add-text{
+				font-size: .14rem;
+				font-weight: bold;
+				color: #9e9e9e;
+				margin-top: .1rem;
+				text-align: center;
+			}
+		}
+	}
+	.line3{
+		width: 100%;
+		display: flex;
+		margin-top: .6rem;
+		.function{
+			width: 2.3rem;
+
+			.line3-title{
+				width: 100%;
+				display: flex;
+				justify-content:space-between;
+				margin-bottom: .2rem;
+				span{
+					color: #4e505c;
+					font-size: .14rem;
+					font-weight: bold;
+				}
+				.subhead{
+					color: #b8b8b8;
+					font-size: .1rem;
+				}
+			}
+			.function-main{
+				width: calc(100% - .1rem);
+				ul{
+					display: flex;
+					flex-wrap:wrap;
+					background: #fdfdfd;
+					padding: .05rem;
+					li{
+						width: 1rem;
+						height: .8rem;
+						border-radius: .2rem;
+						background: #fff;
+						padding-top: .2rem;
+						.icon{
+							width: .4rem;
+							height: .4rem;
+							margin: 0 auto;
+						}
+
+						.icon1{
+							background: url('../images/transactions.png') no-repeat center;
+							background-size: .31rem;
+						}
+						.icon2{
+							background: url('../images/utility.png') no-repeat center;
+							background-size: .32rem .36rem;
+						}
+						.icon3{
+							background: url('../images/loans.png') no-repeat center;
+							background-size: .28rem .36rem;
+						}
+						.icon4{
+							background: url('../images/deposits.png') no-repeat center;
+							background-size: .3rem;
+						}
+						.icon5{
+							background: url('../images/fast.png') no-repeat center;
+							background-size: .34rem;
+						}
+						.icon6{
+							background: url('../images/exchange.png') no-repeat center;
+							background-size: .37rem .28rem;
+						}
+						.icon-name{
+							font-size: .12rem;
+							color:#30373d;
+							font-weight: bold;
+							text-align:center;
+							margin-top: .18rem;
+						}
+					}
+					li:nth-of-type(even){
+						margin-left: .1rem;
+					}
+				}  
+			}
+
+		}
+		.data{
+			width: calc(100% - 3.05rem);
+			padding: 0 .25rem 0 .5rem;
+			.data-title{
+				display: flex;
+				justify-content:space-between;
+				margin-bottom: .2rem;
+				span{
+					color: #4e505c;
+					font-size: .14rem;
+					font-weight: bold;
+				}
+				.subhead{
+					color: #b8b8b8;
+					font-size: .1rem;
+				}
+			}
+			.current{
+				margin-bottom: .4rem;
+				li{
+					display: flex;
+					justify-content: space-between;
+
+					span{
+						color: #aaaaaa;
+						font-size: .12rem;
+					}
+					.dashed{
+						width: .3rem;
+						border-bottom: 1px dashed #eeeeee;
+					}
+					.money{
+						color: #313842;
+						font-weight: bold;
+					}
+				}
+				li+li{
+					margin-top:.2rem; 
+				}
+			}
+			.savings{
+				display: flex;
+				justify-content: space-between;
+				margin-top:.3rem;
+				.savings-chart{
+					height: 1.6rem;
+					width: 3.3rem;
+					background: url('../images/chart1.png') no-repeat center;
+					background-size: 100%;
+
+				}
+				.chart-data{
+					width: 1.55rem;
+					margin-left: .5rem;
+					ul{
+						li{
+							display: flex;
+							justify-content: space-between;
+							span{
+								font-size: .12rem;
+								font-weight:bold;
+								color: #dddddd;
+							}
+							.money{
+								color: #30333a;
+							}
+						}
+						li+li{
+							margin-top: .2rem;
+						}
+					}
+
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width:1440px){
+	.dashboard{
+		.cards{
+			.card-blue{
+				margin-left: .25rem;
+			}
+			.addcard{
+				margin-left: .25rem;
+			}
+		}
+	}
+
+}
